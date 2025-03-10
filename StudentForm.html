@@ -1,0 +1,80 @@
+<html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<head>
+
+    <title>Student Registration Form</title>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;margin-bottom: 50px;font-size: 60px;">Student Form</h1>
+
+    <div class="form-cont">
+        <div class="row">
+            <label>Name</label>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label>Age</label>
+            <input type="number">
+        </div>
+        <div class="row">
+            <label>Gender</label>
+            <div class="gender">
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </div>
+        </div>
+        <div class="row">
+            <label>Course</label>
+            <select>
+                <option>Java</option>
+                <option>Python</option>
+                <option>Java-Script</option>
+                <option>C++</option>
+            </select>
+        </div>
+        <div class="row">
+            <label>Email</label>
+            <input type="email">
+        </div>
+        
+        <button class="save" onclick="save()">Save</button>
+    </div>
+
+    <button class="disp" onclick="showtable()">Display Informations</button>
+    <table class="tbl">
+        <thead class="head-table">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="one">
+                <td>Amal</td>
+                <td>22</td>
+                <td>Python</td>
+                <td>Male</td>
+                <td>Amal@gmail.com</td>
+                <td><button class="delete" onclick="deleterow(event)">Delete</button></td>
+            </tr>
+            <tr id="two">
+                <td>Yoshua</td>
+                <td>23</td>
+                <td>Java-Scipt</td>
+                <td>Male</td>
+                <td>yoshuva@gmail.com</td>
+                <td><button class="delete" onclick="deleterow(event)">Delete</button></td>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
