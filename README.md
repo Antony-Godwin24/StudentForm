@@ -30,7 +30,7 @@ Clone the repository:
 
 git clone <repository_link>
 
-Open the index.html file in your browser.
+Open the StudentForm.html file in your browser.
 
 Fill out the form with the required details.
 
