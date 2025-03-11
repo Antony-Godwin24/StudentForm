@@ -51,3 +51,7 @@ Enhancing the UI for a more modern look.
 License
 
 This project is open-source and available for anyone to use and modify freely.
+
+AUTHOR
+
+ANTONY GODWIN S
